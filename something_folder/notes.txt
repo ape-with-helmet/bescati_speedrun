@@ -1,0 +1,7 @@
+3 types of containers:
+    containers
+    container fluid
+    container grid
+container is a place that stores things.
+
+go check bootstrap website for basic info.
