@@ -6,9 +6,15 @@ container is a place that stores things.
 
 go check bootstrap website for basic info.
 
+HW
 create a container with 5 rows.
     first row 3-3-3-3 equal sized col.
     secnd row 2-8-2 cols
     third row 4-6-2 cols
     fourth row 5-3-4 cols
     fifth row 2-2-2-2-2-2 cols
+
+bootstrap components-
+    buttons-
+        -bootstrap provides beautiful attractive and unique styles of buttons
+        - buttons are created with .btn classes
