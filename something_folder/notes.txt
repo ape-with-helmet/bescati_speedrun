@@ -19,3 +19,11 @@ bootstrap components-
         -bootstrap provides beautiful attractive and unique styles of buttons
         - buttons are created with .btn classes
 
+navbar placed mostly on the top of the website
+
+horizontal navbar
+    -add navbar navbar-expand-lg to horizontal align.
+centered navbar
+    - add justify-content-center to center navbar.
+
+active infront of the link will keep it in active position and disabled infront of the same will make the link unactive.
