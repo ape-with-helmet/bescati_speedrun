@@ -11,14 +11,29 @@ const Navbar = () => {
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link className="navbar-brand" to= "/">
-                            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
-                            alt="image not found...."
-                            height="40px"
-                            className="rounded-pill"
-                            />
+                            Website
                         </Link>
+                        <div className='Collapse navbar=collapse'>
+                            <ul className='navbar-nav me-auto'>
+                                <li className='nav-item'>
+                                    <Link className='nav-link' to = "/">
+                                        HOME
+                                    </Link>
+                                </li>
+                                <li className='nav-item'>
+                                    <Link className='nav-link' to = "/contact">
+                                        CONTACT
+                                    </Link>
+                                </li>
+                                <li className='nav-item'>
+                                    <Link className='nav-link' to = "/about">
+                                        ABOUT
+                                    </Link>
+                                </li>
+                                
+                            </ul>
+                        </div>
                     </li>
-
                 </ul>
             </div>
         </nav>
