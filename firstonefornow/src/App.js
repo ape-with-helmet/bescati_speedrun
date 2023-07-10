@@ -1,11 +1,20 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter, Routes, Route} from "react-router-dom"
+import Home from './Components/Home';
+import About from './Components/About';
+import Contact from './Components/Contact';
 
 function App(){
     return(
         <>
-        <h1 className="bg-primary">hello</h1>
-        <p>You are watching the first few works of dragon with helmet</p>
+        <BrowserRouter>
+            <Routes>
+            <   Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
+        </BrowserRouter>
         </>
     )
 }
