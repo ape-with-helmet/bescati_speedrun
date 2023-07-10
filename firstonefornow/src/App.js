@@ -5,7 +5,7 @@ function App(){
     return(
         <>
         <h1 className="bg-primary">hello</h1>
-        <p>jaa acnsancnasc</p>
+        <p>You are watching the first few works of dragon with helmet</p>
         </>
     )
 }
